@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[584],{2821:(e,r,n)=>{Promise.resolve().then(n.bind(n,4202))},4202:(e,r,n)=>{"use strict";n.r(r),n.d(r,{default:()=>t});var s=n(5155);function t(){return(0,s.jsx)(s.Fragment,{children:(0,s.jsx)("p",{children:"这是用户默认页面"})})}}},e=>{var r=r=>e(e.s=r);e.O(0,[441,684,358],()=>r(2821)),_N_E=e.O()}]);
