@@ -15,7 +15,7 @@ jobs:
         run: |
           npm ci
           npm run build
-          touch docs/.nojekyll
+          touch out/.nojekyll
       - name: 部署到gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
