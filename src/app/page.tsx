@@ -1,6 +1,7 @@
 import { MyButton } from '@/app/my-button';
 import { AboutPage } from '@/app/about-page';
 import MyProfile from '@/app/my-profile';
+import { ShoppingList } from '@/app/shopping-list';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <MyButton/>
       <AboutPage/>
       <MyProfile/>
+      <ShoppingList/>
     </div>
   );
 }
