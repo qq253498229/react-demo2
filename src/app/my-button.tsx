@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function MyButton() {
+export default function MyButton({sharedCount, changeSharedCount}) {
   const [clickCount, setClickCount] = useState(0);
 
   function testFun() {
@@ -11,6 +11,9 @@ export default function MyButton() {
   }
 
   return (
-    <button onClick={testFun}>这是我的button，已经点击了{clickCount}次</button>
+    <>
+      <button onClick={testFun}>这是我的button，已经点击了{clickCount}次</button>
+      <button onClick={changeSharedCount}>共享状态{sharedCount}</button>
+    </>
   );
 }

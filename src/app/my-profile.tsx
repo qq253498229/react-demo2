@@ -7,7 +7,7 @@ const user = {
   imageUrl: 'https://i.imgur.com/JhLgPTT.jpeg',
   imageSize: 150,
 };
-export default function MyProfile() {
+export default function MyProfile({sharedCount, changeSharedCount}) {
   const [clickCount, setClickCount] = useState(0);
 
   function test() {
@@ -26,6 +26,7 @@ export default function MyProfile() {
         }}
       />
       <button onClick={test}>点击增加count，已经点击了{clickCount}次</button>
+      <button onClick={changeSharedCount}>共享状态{sharedCount}</button>
     </>
   );
 }
