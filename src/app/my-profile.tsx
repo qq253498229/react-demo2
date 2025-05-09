@@ -2,7 +2,7 @@ const user = {
   name: '老王',
   imageUrl: 'https://i.imgur.com/JhLgPTT.jpeg',
   imageSize: 150,
-}
+};
 export default function MyProfile() {
   return (
     <>
@@ -16,5 +16,5 @@ export default function MyProfile() {
         }}
       />
     </>
-  )
+  );
 }

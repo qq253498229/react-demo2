@@ -1,4 +1,4 @@
-export function MyButton() {
+export default function MyButton() {
   return (
     <button>这是我的button</button>
   );
